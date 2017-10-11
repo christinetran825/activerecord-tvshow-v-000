@@ -1,4 +1,4 @@
-class CreateShows < 
+class CreateShows < Active::Migration
   create_table :shows do |t|
     t.string :name
     t.string :network
