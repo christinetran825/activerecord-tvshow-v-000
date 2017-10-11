@@ -1,4 +1,4 @@
 class AddSeasonToShows  < Active::Migration
-  add_column
+  add_column :shows, :season, :string
 
 end
