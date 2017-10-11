@@ -1,1 +1,4 @@
-class AddSeasonToShows 
+class AddSeasonToShows  < Active::Migration
+
+
+end
